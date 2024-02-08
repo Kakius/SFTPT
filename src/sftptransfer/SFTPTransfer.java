@@ -25,10 +25,10 @@ public class SFTPTransfer extends Task
 {
 
     private String host = "";
-    private static String USERNAME = "builder";
-    private static String PASSWORD = "zaq1ZAQ!";
+    private static String USERNAME = "";
+    private static String PASSWORD = "!";
     private static String REMOTE_DIR = "/home/builder/rpmbuild/";
-    private static String LOCAL_FILE = "C:\\work_oe\\build";
+    private static String LOCAL_FILE = "";
 
     private FileFilter fileFilter = new FileFilter()
     {
